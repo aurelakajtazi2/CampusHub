@@ -1,11 +1,285 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CampusHub</title>
-</head>
+    <title>CampusHub | Your University Portal</title>
+    <meta name="description"
+        content="Welcome to CampusHub, your university portal for courses, instructors, campus events, announcements, and schedules.">
+<style> body { background-color: rgb(55, 160, 55); }
+    a
+</style>
+    </head>
+    <link rel="icon" type="image/x-icon" href="style.css">
+
 <body>
-    <h1>hkrfd</h1>
+
+    <header>
+    a    <h1>CampusHub</h1>
+        <p style="color: red;font-size: 32px;">Welcome to CampusHub
+
+        </p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <form action="index.html" method="get" role="search">
+            <label for="site-search">Search CampusHub</label>
+            <input type="search" id="site-search" name="q" placeholder="Search courses and campus news">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <section aria-labelledby="hero-heading">
+            <img src="images/campus-hero.jpg" alt="University students walking together across a green campus"
+                width="1200" height="500">
+
+            <h2 id="hero-heading">Your Campus, Your Future</h2>
+            <p>
+                Discover new opportunities, connect with inspiring instructors,
+                and build the skills you need to shape your future.
+                Everything you need for university life starts here.
+            </p>
+
+            <p>
+                <a href="courses.html">Explore Courses</a>
+            </p>
+        </section>
+
+        <section aria-labelledby="statistics-heading">
+            <h2 id="statistics-heading">CampusHub at a Glance</h2>
+
+            <dl>
+                <div>
+                    <dt>Students</dt>
+                    <dd>1,250</dd>
+                </div>
+
+                <div>
+                    <dt>Courses</dt>
+                    <dd>48</dd>
+                </div>
+
+                <div>
+                    <dt>Instructors</dt>
+                    <dd>32</dd>
+                </div>
+
+                <div>
+                    <dt>Events</dt>
+                    <dd>12</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section aria-labelledby="courses-heading">
+            <h2 id="courses-heading">Featured Courses</h2>
+            <p>
+                Explore learning opportunities designed to help you develop
+                practical skills and prepare for your career.
+            </p>
+
+            <article>
+                <img src="images/web-development.jpg" alt="Laptop displaying code in a web development workspace"
+                    width="400" height="250">
+
+                <h3>Web Development</h3>
+                <p>
+                    Learn the fundamentals of HTML, CSS, and web technologies
+                    while building accessible, user-friendly websites.
+                </p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><a href="courses.html">View course information</a></p>
+            </article>
+
+            <article>
+                <img src="images/database-systems.jpg" alt="Computer workstation displaying a database diagram"
+                    width="400" height="250">
+
+                <h3>Database Systems</h3>
+                <p>
+                    Understand data modeling, relational databases, SQL,
+                    and the principles of reliable data management.
+                </p>
+                <p><strong>Department:</strong> Information Technology</p>
+                <p><a href="courses.html">View course information</a></p>
+            </article>
+
+            <article>
+                <img src="images/digital-marketing.jpg" alt="Digital marketing analytics displayed on a computer screen"
+                    width="400" height="250">
+
+                <h3>Digital Marketing</h3>
+                <p>
+                    Explore social media strategy, search engine optimization,
+                    online advertising, and digital campaign planning.
+                </p>
+                <p><strong>Department:</strong> Business Studies</p>
+                <p><a href="courses.html">View course information</a></p>
+            </article>
+
+            <article>
+                <img src="images/graphic-design.jpg" alt="Graphic designer working on a colorful digital illustration"
+                    width="400" height="250">
+
+                <h3>Graphic Design</h3>
+                <p>
+                    Develop visual communication skills through typography,
+                    color theory, layout, and digital design projects.
+                </p>
+                <p><strong>Department:</strong> Arts and Design</p>
+                <p><a href="courses.html">View course information</a></p>
+            </article>
+
+            <p><a href="courses.html">View All Courses</a></p>
+        </section>
+
+        <section aria-labelledby="events-heading">
+            <h2 id="events-heading">Upcoming Events</h2>
+            <p>
+                Take part in campus activities, meet fellow students,
+                and discover new interests.
+            </p>
+
+            <article>
+                <h3>Campus Welcome Day</h3>
+                <p>
+                    <time datetime="2026-11-02">November 2, 2026</time>
+                </p>
+                <p>
+                    Meet students and instructors, tour university facilities,
+                    and learn about campus clubs and student services.
+                </p>
+                <p><strong>Location:</strong> Main Campus Auditorium</p>
+                <p><a href="events.html">View event details</a></p>
+            </article>
+
+            <article>
+                <h3>Technology and Innovation Workshop</h3>
+                <p>
+                    <time datetime="2026-11-10">November 10, 2026</time>
+                </p>
+                <p>
+                    Discover emerging technologies and participate in
+                    practical discussions about innovation and digital skills.
+                </p>
+                <p><strong>Location:</strong> Computer Science Building</p>
+                <p><a href="events.html">View event details</a></p>
+            </article>
+
+            <article>
+                <h3>Student Career Fair</h3>
+                <p>
+                    <time datetime="2026-11-18">November 18, 2026</time>
+                </p>
+                <p>
+                    Connect with employers, explore internship opportunities,
+                    and learn how to prepare for your professional career.
+                </p>
+                <p><strong>Location:</strong> University Conference Hall</p>
+                <p><a href="events.html">View event details</a></p>
+            </article>
+
+            <p><a href="events.html">View All Events</a></p>
+        </section>
+
+        <section aria-labelledby="announcements-heading">
+            <h2 id="announcements-heading">Latest Announcements</h2>
+            <p>
+                Stay informed about important university updates and
+                upcoming academic activities.
+            </p>
+
+            <article>
+                <h3>Course Registration Reminder</h3>
+                <p>
+                    Students should review their course selections and
+                    consult their academic advisers before registration closes.
+                </p>
+                <p>
+                    <time datetime="2026-10-15">October 15, 2026</time>
+                </p>
+                <p><a href="announcements.html">Read announcement</a></p>
+            </article>
+
+            <article>
+                <h3>Library Study Hours Extended</h3>
+                <p>
+                    The university library plans to offer extended study hours
+                    during the examination preparation period. Check the
+                    library noticeboard for the confirmed timetable.
+                </p>
+                <p>
+                    <time datetime="2026-10-12">October 12, 2026</time>
+                </p>
+                <p><a href="announcements.html">Read announcement</a></p>
+            </article>
+
+            <article>
+                <h3>Student Club Applications Open</h3>
+                <p>
+                    Students interested in starting or joining a campus club
+                    can find application guidance through the student affairs
+                    office.
+                </p>
+                <p>
+                    <time datetime="2026-10-08">October 8, 2026</time>
+                </p>
+                <p><a href="announcements.html">Read announcement</a></p>
+            </article>
+
+            <p>
+                <a href="announcements.html">View All Announcements</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <section aria-labelledby="footer-about-heading">
+            <h2 id="footer-about-heading">About CampusHub</h2>
+            <p>
+                CampusHub brings university resources, academic information,
+                and campus community updates together in one place.
+            </p>
+        </section>
+
+        <nav aria-label="Footer navigation">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <address>
+            CampusHub University Portal<br>
+            University Avenue<br>
+            Student Services Office<br>
+            Email: <a href="mailto:info@campushub.example">info@campushub.example</a>
+        </address>
+
+        <p>
+            <small>
+                &copy; 2026 CampusHub. All rights reserved.
+            </small>
+        </p>
+    </footer>
+
 </body>
+
 </html>
